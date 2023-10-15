@@ -17,8 +17,8 @@
 }
 
 .bird{
-    height: 100px;
-    width: 130px;
+    height: 150px;
+    width: 100px;
     position: fixed;
     top: 40vh;
     left: 30vw;
@@ -30,23 +30,24 @@
     top:40vh;
     left:100vw;
     height: 70vh;
-    width: 6vw;
+    width: 10vw;
     background: radial-gradient(lightgreen 50%, green);
-    border: 5px solid black;
+    border-radius: 50px;
 }
 
 .message{
     position: absolute;
     z-index: 10;
     color: black;
-    top: 30%;
-    left: 50%;
+    top: 45%;
+    left: 43%;
     transform: tanslate(-50%, -50%);
     text-align: center;
+    
 }
 
 .messageStyle{
-    background: white;
+    background: #e8db65;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius:5%;
@@ -60,7 +61,7 @@
     font-weight: 100;
     color: white;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-color: black; */
     top: 0;
     left: 0;
     margin: 10px;
